@@ -127,8 +127,7 @@ You can customize the following aspects of the application:
 
 ## Screenshots (Optional)
 ### Main Window
-_A sample interface of the application._
-
+![](main.PNG)
 ---
 
 ## Acknowledgments
