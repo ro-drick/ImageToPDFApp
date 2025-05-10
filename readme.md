@@ -1,4 +1,5 @@
 # Image to PDF Converter
+![banner_image](Image_To_PDF_Converter.png)
 
 ## Overview
 The **Image to PDF Converter** is a Python-based GUI application that allows users to easily convert a collection of images into a single PDF file. This tool provides a convenient interface for selecting multiple images, arranging them, and generating a neatly formatted PDF document. It is built using the `tkinter` library for the graphical interface and uses `Pillow` and `reportlab` libraries for image processing and PDF generation, respectively.
@@ -89,17 +90,9 @@ python script_name.py
 
 ## Code Structure
 ### Main Code
-```python
-def main():
-    root = tk.Tk()
-    root.title("Image to PDF")
-    converter = ImageToPDFConverter(root)
-    root.geometry("400x600")
-    root.mainloop()
 
-if __name__ == "__main__":
-    main()
-```
+![](carbon.png)
+
 - Initializes the `tkinter` root window.
 - Instantiates the `ImageToPDFConverter` class and starts the event loop.
 
